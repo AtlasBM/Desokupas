@@ -17,6 +17,7 @@ contenedorLight.addEventListener('click', (e)=>{
         contenedorLight.classList.toggle('show')
         imagenesLight.classList.toggle('showImage')  
         menu1.style.opacity = '1'
+        menu1.style.margin = '0'
     }
 })
 
