@@ -42,7 +42,6 @@ header{
 
 .menu{
     position: fixed;
-    z-index: 10;
     top: 30px;
     right: 30px;
     background: #fff;
@@ -346,6 +345,14 @@ footer{
         text-align: center;
         width: 80%;
         margin-bottom: 40px;
+    }
+
+    .contenedor-servicio .house{
+        width: 100;
+    }
+
+    .contenedor-servicio .house-servicio{
+        width: 80%;
     }
 }
 

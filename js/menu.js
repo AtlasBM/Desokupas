@@ -1,8 +1,8 @@
 const menu = document.querySelector('.menu');
 const menu2 = document.querySelector('.menu-navegacion');
 
-console.log(menu2)
-console.log(menu)
+// console.log(menu2)
+// console.log(menu)
 
 
 menu.addEventListener('click', ()=>{
