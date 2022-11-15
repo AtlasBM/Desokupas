@@ -3,6 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
 
 :root{
     scroll-behavior: smooth;
@@ -22,9 +42,9 @@ body{
 
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%), url(../Desokupas/img/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg); 
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%), url(../Desokupas/img/logo\ desoKupas.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 117%;
     background-attachment: fixed;
     background-position: center;
 }
@@ -32,7 +52,7 @@ header{
 .head{
     text-align: center;
     padding: 0;
-    height: 100%;
+    height: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,6 +157,13 @@ header{
     font-weight: 700;
     line-height: 30px;
     margin-right: 5px;
+}
+
+.joaquim{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .gallery{

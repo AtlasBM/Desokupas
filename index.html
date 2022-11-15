@@ -7,21 +7,27 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fontella.css">
     <title>DesoKupasCL</title>
 </head>
 <body>
+    <div class="Whatsapp-logo"></div>
+        <a href="https://api.whatsapp.com/send?phone=959657849" class="btn-wsp" target="_blank">
+            <i class='bx bxl-whatsapp'></i>
+        </a>
     <header class="header" id="Inicio">
         <img src="img/Menu.svg" alt="" class="menu">
         <nav class="menu-navegacion">
             <a href="#Inicio">Inicio</a>
             <a href="#Servicio">Servicio</a>
+            <a href="#About">Quienes somos</a>
             <a href="#Galeria">Galería</a>
             <a href="#Expertos">Expertos</a>
             <a href="#Contacto">Contacto</a>
         </nav>
         <div class="contenedor head">
             <h1 class="titulo">Devolvemos tu casa con seguridad</h1>
-            <p class="copy">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p class="copy">DesoKupas seguridad a tu hogar</p>
         </div>
     </header>
     <main>
@@ -31,31 +37,53 @@
                 <img src="img/house.svg" alt="" class="house">
                 <div class="house-servicio">
                     <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        <h3 class="n-service"><span class="number">1</span>Análisis gratuito del caso</h3>
+                        <p>Analizaremos su caso de manera gratuita y posteriormente le informaremos lo mejor que le convenga a usted.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        <h3 class="n-service"><span class="number">2</span>Revisión y confección de contratos de arrendamiento</h3>
+                        <p>Revisaremos contratos de arriendo y también se realizarán.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        <h3 class="n-service"><span class="number">3</span>Desalojo de ilegales en tu hogar</h3>
+                        <p>Desalojaremos de tu vivienda a personas ilegales y usurpadores de la morada.</p>
                     </div>
                 </div>
 
+            </div>
+        </section>
+        <section class="about" id="About">
+            <div class="contenedor">
+                <h2 class="subtitulo">Quienes somos</h2>
+                <div class="contenedor-about">
+                    <div class="house-servicio">
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">1</span>Análisis gratuito del caso</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">2</span>Revisión y confección de contratos de arrendamiento</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">3</span>Desalojamos a ilegales de tu hogar</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sapiente asperiores ea excepturi fugiat molestias ipsam harum non illo esse.</p>
+                        </div>
+                    </div>
+                    <img src="img/loki.jpg" alt="" class="Joaquim">
+                </div>
             </div>
         </section>
         <section class="gallery" id="Galeria">
             <div class="contenedor">
                 <h2 class="subtitulo">Galeria</h2>
                 <div class="contenedor-galeria">
-                    <img src="img/uno.jpg" alt="" class="img-galeria" width="100px" height="100px">
-                    <img src="img/dos.jpg" alt="" class="img-galeria" width="100px" height="100px">
-                    <img src="img/tres.jpg" alt="" class="img-galeria" width="100px" height="100px">
-                    <img src="img/cuatro.jpg" alt="" class="img-galeria" width="100px" height="100px">
-                    <img src="img/cinco.jpg" alt="" class="img-galeria" width="100px" height="100px">
-                    <img src="img/seis.jpg" alt="" class="img-galeria" width="100px" height="100px">
+                    <img src="img/uno.jpg" alt="" class="img-galeria">
+                    <img src="img/dos.jpg" alt="" class="img-galeria">
+                    <img src="img/tres.jpg" alt="" class="img-galeria">
+                    <img src="img/cuatro.jpg" alt="" class="img-galeria"> 
+                    <img src="img/cinco.jpg" alt="" class="img-galeria"> 
+                    <img src="img/seis.jpg" alt="" class="img-galeria"> 
                 </div>
             </div>
         </section>
@@ -68,15 +96,15 @@
             <section class="experts">
                 <div class="cont-expert">
                     <img src="img/right-4703934_1920.jpg" alt="" class="img-galeria" width="400px" height="400px">
-                    <h3 class="n-expert">analytics</h3>
+                    <h3 class="n-expert">Analytics</h3>
                 </div>
                 <div class="cont-expert">
                     <img src="img/digital-marketing-1433427_1920.jpg" alt="" class="img-galeria" width="400px" height="400px">
-                    <h3 class="n-expert">SEO</h3>
+                    <h3 class="n-expert">Leyes</h3>
                 </div>
                 <div class="cont-expert">
                     <img src="img/security-869216_1920.jpg" alt="" class="img-galeria" width="400px" height="400px">
-                    <h3 class="n-expert">security</h3>
+                    <h3 class="n-expert">Security</h3>
                 </div>
             </section>
         </section>
@@ -85,7 +113,7 @@
         <div class="contenedor footer-content">
             <div class="contact-us">
                 <h2 class="brand">DesoKupasCL</h2>
-                <p>Te ayudamos a volver a tu casa tomada</p>
+                <p>Te ayudamos a recuperar tu casa tomada</p>
             </div>
             <div class="social-media">
                 <a href="www.facebook.cl" class="social-media-icon">
